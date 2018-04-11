@@ -1,0 +1,12 @@
+{
+    "name": "christophwurst/composer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christoph Wurst",
+            "email": "christoph@winzerhof-wurst.at"
+        }
+    ],
+    "require": {}
+}
