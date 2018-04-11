@@ -21,7 +21,6 @@ impl Composer {
     }
 
     pub fn is_available(&self) -> bool {
-        println!("{:?}", self.path);
         self.path.exists()
     }
 

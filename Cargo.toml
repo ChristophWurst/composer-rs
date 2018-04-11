@@ -2,6 +2,7 @@
 name = "composer"
 version = "0.1.0"
 authors = ["Christoph Wurst <christoph@winzerhof-wurst.at>"]
+description = "Rust wrapper around php's composer to install php dependencies"
 
 [dependencies]
 failure = "0.1.1"
