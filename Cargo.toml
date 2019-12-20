@@ -1,9 +1,10 @@
 [package]
 name = "composer"
-version = "0.2.0"
+version = "0.2.1"
 authors = ["Christoph Wurst <christoph@winzerhof-wurst.at>"]
 description = "Rust wrapper around php's composer to install php dependencies"
 edition = "2018"
+license-file = "LICENSE"
 
 [dependencies]
 failure = "0.1"
