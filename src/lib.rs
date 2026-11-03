@@ -1,10 +1,7 @@
-#[macro_use]
-extern crate failure;
-
 use std::path::PathBuf;
 use std::process::Command;
 
-use failure::Error;
+use anyhow::{anyhow, Error};
 
 pub struct Composer {
     path: PathBuf,
@@ -26,7 +23,7 @@ impl Composer {
 
     fn ensure_available(&self) -> Result<(), Error> {
         if !self.is_available() {
-            format_err!("no composer executable found");
+            let _ = anyhow!("no composer executable found");
         }
         Ok(())
     }
